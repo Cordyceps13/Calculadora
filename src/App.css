@@ -7,9 +7,12 @@
 }
 
 .calculadora {
-  width: 300px;
+  margin: auto;
+  padding: 0;
+  width: 350px;
   height: 400px;
-  background-color: aqua;
+  /* background-color: aqua; */
+  border-radius: 15px;
 }
 
 .ecra-container {
@@ -18,6 +21,7 @@
   height: 50px;
   background-color: rgb(100, 95, 95);
   border-bottom: 1px solid black;
+  border-radius: 5px 5px 0px 0px;
 }
 
 #ecra {
@@ -37,16 +41,32 @@
 .btns-container {
   max-width: 100%;
   height: 330px;
-  background-color: green;
+  background-color: rgb(60, 60, 60);
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 0px 0px 5px 5px;
+  padding: 15px;
 }
 
 .nums {
-  width: 60px;
+  width: 70px;
   height: 40px;
   background-color: black;
   color: antiquewhite;
   text-align: center;
-  margin: auto;
+  margin: 0;
+  border-radius: 5px;
+  border: none;
+  transition: ease 0,5s;
+}
+
+.nums:hover{
+  background-color: rgb(53, 52, 52);
+
+}
+
+.nums:active{
+  background-color: rgb(37, 36, 36);
 }
