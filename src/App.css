@@ -1,0 +1,52 @@
+.calculadora-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculadora {
+  width: 300px;
+  height: 400px;
+  background-color: aqua;
+}
+
+.ecra-container {
+  padding: 10px;
+  max-width: 100%;
+  height: 50px;
+  background-color: rgb(100, 95, 95);
+  border-bottom: 1px solid black;
+}
+
+#ecra {
+  margin: 0;
+  max-width: 100%;
+  width: 1000px;
+  height: 100px;
+  max-height: 100%;
+  background-color: rgb(191, 190, 190);
+  border: 1px solid black;
+  color: black;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.btns-container {
+  max-width: 100%;
+  height: 330px;
+  background-color: green;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nums {
+  width: 60px;
+  height: 40px;
+  background-color: black;
+  color: antiquewhite;
+  text-align: center;
+  margin: auto;
+}
