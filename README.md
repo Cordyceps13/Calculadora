@@ -1,6 +1,6 @@
 # Calculadora Simples Em React 
 
-Apenas um execrício simples para voltar a meter os motores a trabalhar
+Apenas um exercício simples para tirar o pó aos motores
 
 
 ## Para correr o projeto
