@@ -4,6 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  user-select: none;
 }
 
 .calculadora {
@@ -24,6 +25,10 @@
   border-radius: 5px 5px 0px 0px;
 }
 
+  /* .ecra-container p{
+    margin-right: 10px;
+  } */
+
 #ecra {
   margin: 0;
   max-width: 100%;
@@ -36,6 +41,7 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  user-select: text;
 }
 
 .btns-container {
@@ -59,14 +65,14 @@
   margin: 0;
   border-radius: 5px;
   border: none;
-  transition: ease 0,5s;
+  transition: ease 0, 5s;
 }
 
-.nums:hover{
+.nums:hover {
   background-color: rgb(53, 52, 52);
 
 }
 
-.nums:active{
+.nums:active {
   background-color: rgb(37, 36, 36);
 }
