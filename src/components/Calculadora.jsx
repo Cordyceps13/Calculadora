@@ -11,7 +11,10 @@ function Calculadora() {
         else if (btn === '+' || btn === '-' || btn === '*' || btn === '/') {
             setInput(prevInput => {
                 // Remove todos os operadores do fim da string atual
-                const base = prevInput.replace(/[+\-*/]+$/, '');
+                let base = prevInput.replace(/[+\-*/]+$/, '');
+                if(base === 'ERRO DE SINTAXE'){
+                    base = ''
+                }
                 // Adiciona o novo operador ao que sobrou
                 return base + btn;
             });
