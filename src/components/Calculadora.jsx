@@ -16,12 +16,10 @@ function Calculadora() {
             }
         }
         else {
-            setInput(prev => prev === '0' || prev === 'Erro' ? btn : prev + btn)
+            setInput(input => input === '0' || input === 'Erro' ? btn : input + btn)
         }
 
     }
-
-
 
     return (
         <>
