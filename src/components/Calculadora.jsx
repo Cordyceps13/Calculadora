@@ -25,7 +25,7 @@ function Calculadora() {
             }
         }
         else {
-            setInput(input => input === '0' || input === 'Erro' ? btn : input + btn)
+            setInput(input => input === '0' || input === 'ERRO DE SINTAXE' ? btn : input += btn)
         }
 
     }
