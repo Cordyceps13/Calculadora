@@ -8,6 +8,15 @@ function Calculadora() {
         if (btn === 'C') {
             setInput('0')
         }
+        else if (btn === '+' || btn === '-' || btn === '*' || btn === '/') {
+            setInput(prevInput => {
+                // Remove todos os operadores do fim da string atual
+                const base = prevInput.replace(/[+\-*/]+$/, '');
+                // Adiciona o novo operador ao que sobrou
+                return base + btn;
+            });
+
+        }
         else if (btn === '=') {
             try {
                 setInput(eval(input).toString())
